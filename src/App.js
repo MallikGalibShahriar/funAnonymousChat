@@ -18,7 +18,7 @@ function ChatApp() {
       <h1>Chat App</h1>
       <form onSubmit={handleSubmit}>
         <label>
-          User:
+          User: 
           <input
             type="text"
             value={user}
@@ -26,7 +26,7 @@ function ChatApp() {
           />
         </label>
         <label>
-          Message:
+          Message: 
           <input
             type="text"
             value={message}
